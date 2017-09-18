@@ -1,6 +1,6 @@
 package com.TheIronYard;
 
-public interface offensiveDoctrine {
+public interface OffensiveDoctrine {
 
     String attack();
 

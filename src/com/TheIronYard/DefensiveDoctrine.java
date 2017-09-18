@@ -1,6 +1,6 @@
 package com.TheIronYard;
 
-public interface defensiveDoctrine {
+public interface DefensiveDoctrine {
 
     String defend();
 }

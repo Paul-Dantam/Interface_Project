@@ -9,11 +9,13 @@ public class Infantry extends Soldier {
 
     @Override
     public String defend() {
+        System.out.println("defense in depth");
         return null;
     }
 
     @Override
     public String attack() {
+        System.out.println("superior firepower and encirclement");
         return null;
     }
 }

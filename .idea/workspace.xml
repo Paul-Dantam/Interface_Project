@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="273b823f-c33e-4ad7-b016-b2435a02d962" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/TheIronYard/defensiveDoctrine.java" afterPath="$PROJECT_DIR$/src/com/TheIronYard/DefensiveDoctrine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/TheIronYard/offensiveDoctrine.java" afterPath="$PROJECT_DIR$/src/com/TheIronYard/OffensiveDoctrine.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/TheIronYard/Soldier.java" afterPath="$PROJECT_DIR$/src/com/TheIronYard/Soldier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/TheIronYard/Infantry.java" afterPath="$PROJECT_DIR$/src/com/TheIronYard/Infantry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/TheIronYard/Marine.java" afterPath="$PROJECT_DIR$/src/com/TheIronYard/Marine.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,18 +45,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="offensiveDoctrine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/offensiveDoctrine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="defensiveDoctrine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/defensiveDoctrine.java">
+      <file leaf-file-name="OffensiveDoctrine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/OffensiveDoctrine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -62,16 +55,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Marine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CombinedArms.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/CombinedArms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefensiveDoctrine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/DefensiveDoctrine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Marine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/Marine.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#284#285#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-              </folding>
+              <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -79,14 +88,9 @@
       <file leaf-file-name="Infantry.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/Infantry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-              <folding>
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -96,8 +100,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -115,8 +119,11 @@
         <option value="$PROJECT_DIR$/src/com/TheIronYard/Soldier.java" />
         <option value="$PROJECT_DIR$/src/com/TheIronYard/offensiveDoctrine.java" />
         <option value="$PROJECT_DIR$/src/com/TheIronYard/defensiveDoctrine.java" />
-        <option value="$PROJECT_DIR$/src/com/TheIronYard/Infantry.java" />
         <option value="$PROJECT_DIR$/src/com/TheIronYard/Marine.java" />
+        <option value="$PROJECT_DIR$/src/com/TheIronYard/Infantry.java" />
+        <option value="$PROJECT_DIR$/src/com/TheIronYard/OffensiveDoctrine.java" />
+        <option value="$PROJECT_DIR$/src/com/TheIronYard/DefensiveDoctrine.java" />
+        <option value="$PROJECT_DIR$/src/com/TheIronYard/CombinedArms.java" />
       </list>
     </option>
   </component>
@@ -290,7 +297,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/defensiveDoctrine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/Infantry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/OffensiveDoctrine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
@@ -298,36 +313,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/offensiveDoctrine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/DefensiveDoctrine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/Infantry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/Marine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/TheIronYard/CombinedArms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
