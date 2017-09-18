@@ -1,6 +1,6 @@
 package com.TheIronYard;
 
-abstract public class Soldier implements doctrine,  {
+abstract public class Soldier implements offensiveDoctrine, defensiveDoctrine {
     String name;
     String rank;
     int serialNumber;
