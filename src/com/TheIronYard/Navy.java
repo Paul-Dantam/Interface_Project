@@ -1,9 +1,10 @@
 package com.TheIronYard;
 
-public class Infantry extends Soldier implements Engage {
+public class Navy extends Soldier implements Engage {
+
     @Override
     public String speak() {
-        System.out.println("Hooah");
+        System.out.println("hoohyah");
         return null;
     }
 

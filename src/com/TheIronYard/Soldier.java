@@ -1,6 +1,6 @@
 package com.TheIronYard;
 
-abstract public class Soldier implements offensiveDoctrine, defensiveDoctrine {
+abstract public class Soldier {
     String name;
     String rank;
     int serialNumber;
@@ -8,6 +8,7 @@ abstract public class Soldier implements offensiveDoctrine, defensiveDoctrine {
 
 
     public void sleep(){
+
         System.out.println("snore");
     }
 
