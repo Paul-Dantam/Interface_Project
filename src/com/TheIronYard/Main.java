@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
 
         Marine marine = new Marine();
-
         marine.sleep();
         marine.eat();
         marine.walk();
@@ -13,7 +12,5 @@ public class Main {
         marine.shoot();
         marine.Bomb();
         marine.withdraw();
-
-	// write your code here
     }
 }
