@@ -1,6 +1,6 @@
 package com.TheIronYard;
 
-public class Navy extends Soldier implements Engage {
+public class Navy extends Soldier {
 
     @Override
     public String speak() {
@@ -8,15 +8,5 @@ public class Navy extends Soldier implements Engage {
         return null;
     }
 
-    @Override
-    public String shoot() {
-        System.out.println("tactical withdrawal");
-        return null;
-    }
 
-    @Override
-    public String knife() {
-        System.out.println("Schwerpunkt");
-        return null;
-    }
 }

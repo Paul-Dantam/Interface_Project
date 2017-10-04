@@ -1,10 +1,9 @@
 package com.TheIronYard;
 
-abstract public class Soldier {
+abstract public class Soldier implements Engage, Bomb {
     String name;
     String rank;
     int serialNumber;
-
 
 
     public void sleep(){
@@ -23,5 +22,27 @@ abstract public class Soldier {
 
     abstract public String speak();
 
+    @Override
+    public String shoot() {
+        System.out.println("Dakka dakka");
+        return null;
+    }
+
+    @Override
+    public String knife() {
+        System.out.println("Slice");
+        return null;
+    }
+
+    @Override
+    public String Bomb(){
+        System.out.println("Boom");
+        return "Boom";
+    }
+
+    @Override
+    public String withdraw(){
+        return "Run Away Again!";
+    }
 
 }
